@@ -1,0 +1,24 @@
+#servicii {
+    height: 100%;
+}
+
+#servicii .buton {
+    display: block;
+    padding: 1rem;
+}
+
+@media(max-width: 500px) {
+    #navmenu {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #navmenu a {
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+    
+    #navmenu ul {
+        padding: 0.5rem;
+    }
+}

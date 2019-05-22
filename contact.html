@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
+    <title>Lili Beauty | Contact</title>
+    </head>
+<body>
+    <nav id="navmenu">
+        <a href="index.html"><img src="images/Logo.png" alt="logo"></a>
+    <ul class="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="servicii.html">Servicii</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
+    
+    <section id="contact">
+    <div class="contact-form bg-primary p-2">
+    <h2 class="m-heading">Contact</h2>
+    <p>Introduceti detaliile pentru a ne contacta</p>
+    <form>
+        <div class="form-group">
+            <label for="name">Nume</label>
+            <input type="text" name="name" id="name" placeholder="Numele Dvs">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Adresa Mail">
+        </div>
+        <div class="form-group">
+            <label for="phone">Telefon</label>
+            <input type="text" name="phone" id="phone" placeholder="Numar de telefon">
+        </div>
+        <div class="form-group">
+            <label for="message">Mesaj</label>
+            <textarea name="message" id="mesage" placeholder="Mesajul Dvs"></textarea>
+        </div>
+        <input type="submit" value="Trimite" class="btn">
+    </form>
+    </div>
+    
+    <div class="map"></div>
+    
+    </section>
+    
+    <footer>
+        <p>Copyright &copy; by <strong><em>Lili Cosmetica Profesionala</em></strong></p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBYxJAZQCMsgGs0VzRf2oAZ-xGdMe8RTQ&callback=initMap"
+    async defer></script>
+</body>
+</html>

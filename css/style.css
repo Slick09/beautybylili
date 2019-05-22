@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-center {
+  text-align:center;
+}
+
+.text-primary {
+  color: #F54590;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-primary {
+  background: #ffdeec;
+  color: #F54590;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.py-1 { padding: 1.5rem 0; }
+.py-2 { padding: 2rem 0; }
+.py-3 { padding: 3rem 0; }
+
+.p-1 { padding: 1.5rem; }
+.p-2 { padding: 2rem; }
+.p-3 { padding: 3rem; }
+
+.btn {
+  display: inline-block;
+  color: #F54590;
+  background: #ffdeec;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #F54590;
+  color: #fff;
+}
+
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
+/* Navmenu */
+#navmenu {
+    display: flex;
+    background: #ffdeec;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: #F54590 solid 2px;
+}
+
+#navmenu img {
+    height: 10rem;
+}
+
+#navmenu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navmenu ul li a {
+  color: #F54590;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+
+#navmenu ul li a:hover {
+  background: #F54590;
+  color: #fff;
+  border-radius: 5px;
+}
+
+#text-content {
+    display: flex;
+    background: #ffdeec;
+}
+
+.main-text {
+    color: #f54590;
+    margin: 4rem;
+}
+
+.main-text h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.main-text h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main-text p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.main-text li {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+/* Showcase */
+#showcase {
+  background: #ffdeec url('../images/showcase2.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+}
+
+#showcase .showcase-content a {
+    padding: 1rem 2rem;
+    margin-top: 10rem;
+}
+
+#showcase .showcase-content h1 {
+    color: #F54590;
+    font-size: 4rem;
+}
+
+#showcase .showcase-content p {
+    color: #F54590;
+    font-size: 2rem;
+}
+
+#testimonials {
+  height: 100%;
+  background: url('../images/beautiful.jpg') no-repeat center center/cover;
+  padding-top: 50px;
+}
+
+#testimonials h2 {
+  color: #F54590;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+  width: 80px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#testimonials testimonial  bg-primary {
+    color: #f54590;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #ffdeec;
+  color: #F54590;
+  padding: 20px;
+  border-top: #F54590 solid 2px;
+}
+
+footer p {
+    font-size: 1.6rem;
+}
+
+/* Servicii */
+#servicii {
+    background: #ffdeec;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#servicii .buton {
+    border: #F54590 solid 1px;
+    text-align: center;
+    padding: 1rem;
+    margin: 0.5rem;
+    flex-basis: 300px;
+}
+
+#servicii img {
+    height: 400px;
+    width: 400px;
+}
+
+#contact {
+    display: flex;
+    height: 70vh;
+}
+
+#contact .map, #contact .contact-form {
+    flex: 1;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.75rem;
+}
+
+#contact .contact-form label {
+    display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+#success {
+    height: 71vh;
+}

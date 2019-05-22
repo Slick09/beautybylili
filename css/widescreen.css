@@ -1,0 +1,12 @@
+#servicii {
+    height: 100%;
+}
+
+#servicii .buton {
+    display: block;
+    padding: 1rem;
+}
+
+#contact .map {
+    flex: 2;
+}
